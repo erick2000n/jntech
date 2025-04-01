@@ -25,13 +25,13 @@ document.getElementById('header-placeholder').innerHTML = `
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="views/servicios.html" ${currentPage === 'views/servicios.html' ? 'class="active"' : ''}>
+                        <a href="servicios.html" ${currentPage === 'servicios.html' ? 'class="active"' : ''}>
                             <span class="nav-indicator"></span>
                             <span class="nav-text">Servicios</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="views/nosotros.html" ${currentPage === 'views/nosotros.html' ? 'class="active"' : ''}>
+                        <a href="nosotros.html" ${currentPage === 'nosotros.html' ? 'class="active"' : ''}>
                             <span class="nav-indicator"></span>
                             <span class="nav-text">Nosotros</span>
                         </a>
