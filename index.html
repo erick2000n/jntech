@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/img/logo/logo-jntech.png">
+    <title>JN TECH</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+
+    <!-- Contenedor del header -->
+    <div id="header-placeholder"></div>
+    <!-- Enlazar el script del footer -->
+    <script src="components/header.js"></script>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animated-text">Innovación en Soluciones <span class="gradient-text">Tecnológicas</span></h1>
+                <p class="typing-text">Enfocados en automatizar procesos</p>
+                <div class="hero-buttons">
+                    <!--<a href="servicios.html" class="btn btn-primary">Nuestros Servicios</a>-->
+                    <a href="contacto.html" class="btn btn-secondary">Contáctanos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="circuit-animation">
+                    <div class="node n1"></div>
+                    <div class="node n2"></div>
+                    <div class="node n3"></div>
+                    <div class="node n4"></div>
+                    <div class="line l1"></div>
+                    <div class="line l2"></div>
+                    <div class="line l3"></div>
+                    <div class="data-flow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    
+    <section id="servicios-preview" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros <span class="gradient-text">Servicios</span></h2>
+                <p >Innovación en soluciones tecnológicas</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automatización RPA</h3>
+                    <p>Es una tecnología que utiliza software para automatizar tareas repetitivas en sistemas digitales. Desde la gestión de nóminas hasta la incorporación de nuevos empleados, la RPA mejora la precisión y rapidez, ahorrando tiempo y costes. Permitiendo que tu equipo se concentre en ¡la creatividad y la estrategia!</p>
+                    <a href="servicios.html#rpa" class="learn-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <h3>Chatbots Inteligentes</h3>
+                    <p>Son programas de software que simulan conversaciones humanas mediante inteligencia artificial (IA). Se utilizan principalmente para interactuar automáticamente con usuarios en sitios web, aplicaciones y redes sociales, respondiendo preguntas, resolviendo problemas y proporcionando información.</p>
+                    <a href="servicios.html#chatbots" class="learn-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Trabajamos en proyectos con código puro así como tambien en WordPress, asegurando un gran diseño estético y funcionalidad. Creamos sitios web desde cero, proporcionando soluciones personalizadas y a medida. Nuestro enfoque es ofrecer experiencias digitales extraordinarias que capturan la esencia de tu marca y superan tus expectativas.</p>
+                    <a href="servicios.html#web" class="learn-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>IT Support</h3>
+                    <p>Proporcionamos asistencia técnica a los usuarios para resolver problemas de hardware, software, redes y otros dispositivos tecnológicos.</p>
+                    <a href="servicios.html#support" class="learn-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="solutions-cta">
+                <a href="servicios.html" class="btn btn-primary">Ver todos los servicios</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="nosotros" class="about-section" style="padding: 100px 0; background: linear-gradient(135deg, #f5f7ff 0%, #edf1ff 100%);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre <span class="gradient-text">Nosotros</span></h2>
+                <p>Conoce quiénes somos y nuestra misión en el mundo tecnológico</p>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; margin-top: 50px;">
+                <div>
+                    <h3 style="font-family: 'Orbitron', sans-serif; font-size: 1.8rem; margin-bottom: 20px;">Nuestra <span class="gradient-text">Historia</span></h3>
+                    <p style="color: var(--text-gray); margin-bottom: 20px; font-size: 1.1rem; line-height: 1.8;">
+                        JN TECH nació en 2020 con una visión clara: transformar la manera en que las empresas utilizan la tecnología para optimizar sus procesos. Fundada por un equipo de expertos en tecnología con amplia experiencia en el sector, nuestra empresa ha crecido rápidamente hasta convertirse en un referente en soluciones tecnológicas innovadoras.
+                    </p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+                        <!--
+                        <div style="background: white; border-radius: 15px; padding: 20px; box-shadow: var(--shadow); flex: 1; min-width: 120px; text-align: center;">
+                            <span style="font-size: 2rem; font-weight: 700; color: var(--primary-blue);">100+</span>
+                            <p style="margin-top: 5px; color: var(--text-gray);">Clientes</p>
+                        </div>
+                        <div style="background: white; border-radius: 15px; padding: 20px; box-shadow: var(--shadow); flex: 1; min-width: 120px; text-align: center;">
+                            <span style="font-size: 2rem; font-weight: 700; color: var(--primary-blue);">50+</span>
+                            <p style="margin-top: 5px; color: var(--text-gray);">Proyectos</p>
+                        </div>
+                        -->
+                        <div style="background: white; border-radius: 15px; padding: 20px; box-shadow: var(--shadow); flex: 1; min-width: 120px; text-align: center;">
+                            <span style="font-size: 2rem; font-weight: 700; color: var(--primary-blue);">5+</span>
+                            <p style="margin-top: 5px; color: var(--text-gray);">Años</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <a href="nosotros.html" class="btn btn-primary">Conoce más sobre nosotros</a>
+                    </div>
+                </div>
+                <div style="position: relative;">
+                    <div style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow);">
+                        <img src="assets/img/logo/logo-jntech.png" alt="JN TECH Equipo" style="width: 100%; display: block;">
+                        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(75, 78, 229, 0.2) 0%, rgba(46, 196, 217, 0.2) 100%);"></div>
+                    </div>
+                    <div style="position: absolute; bottom: -20px; right: -20px; background: white; border-radius: 15px; padding: 15px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 15px;">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background: var(--gradient); display: flex; align-items: center; justify-content: center; color: white; font-size: 24px;">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 1.1rem; margin-bottom: 5px;">Innovación constante</h4>
+                            <p style="color: var(--text-gray); font-size: 0.9rem;">Nuestro principal valor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Parte que mas adelante se pondra.
+    <section id="soluciones" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestras <span class="gradient-text">Soluciones</span></h2>
+                <p>Implementamos tecnologías de vanguardia para resolver desafíos empresariales</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Optimización de Procesos</h3>
+                    <p>Analizamos y mejoramos los flujos de trabajo para aumentar la eficiencia operativa y reducir costos.</p>
+                    <div class="solution-features">
+                        <span>Análisis de procesos</span>
+                        <span>Automatización</span>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Inteligencia Artificial</h3>
+                    <p>Implementamos soluciones basadas en IA para análisis predictivo y toma de decisiones inteligentes.</p>
+                    <div class="solution-features">
+                        <span>Machine Learning</span>
+                        <span>Análisis predictivo</span>
+                        <span>Procesamiento de datos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="solutions-cta">
+                <a href="soluciones.html" class="btn btn-primary">Explorar soluciones</a>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section id="proyectos-preview" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proyectos <span class="gradient-text">Destacados</span></h2>
+                <p>Conoce algunos de nuestros casos de éxito</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/clientes/logo-cgla.jpg" alt="Desarrollo Web">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4>Centro Ginecologico Las Americas</h4>
+                                <!--<i class="fas fa-arrow-right"></i>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Página Web - Centro Ginecologico las Americas</h3>
+                        <p>Desarrollo de página web para los servicios ginecologicos que brinda la empresa.</p>
+                        <div class="project-tags">
+                            <span>WordPress</span>
+                            <span>Desarrollo Web</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/clientes/logo-.png" alt="Chatbot Atención al Cliente">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4>Academia Tañedores</h4>
+                                <!--<i class="fas fa-arrow-right"></i>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chatbot - Academia Tañedores</h3>
+                        <p>Chatbot para la recopilación de datos de las invitaciones pagas para el recital de musica. Para que el mismo bot creara la n cantidad de invitaciones solicitadas.</p>
+                        <div class="project-tags">
+                            <span>Chatbot</span>
+                            <span>IA</span>
+                            <span>NLP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/clientes/logo-sat.jpg" alt="Automatizacion facturación">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h4>Proyecto de facturación</h4>
+                                <!--<i class="fas fa-arrow-right"></i>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Proyecto de facturación - Persona individual</h3>
+                        <p>Automatización de proceso de facturación. El cual se le brinda una base de datos con la N cantidad de facturas a realizar. Ingresa a SAT e ingresa la N cantidad de facturas según monto, moneda, fecha, descripcion y persona.</p>
+                        <div class="project-tags">
+                            <span>Automatización</span>
+                            <span>RPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="proyectos.html" class="btn btn-primary">Ver todos los proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenedor del footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Enlazar el script del footer -->
+    <script src="components/footer.js"></script>
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="components/script.js"></script>
+</body>
+</html>
