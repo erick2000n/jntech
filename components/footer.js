@@ -4,7 +4,7 @@ document.getElementById('footer-placeholder').innerHTML = `
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="../assets/img/logo/logo-jntech-bn.png" alt="JN TECH Logo">
+                    <img src="assets/img/logo/logo-jntech-bn.png" alt="JN TECH Logo">
                     <p>Soluciones tecnológicas para el mundo digital</p>
                 </div>
                 <div class="footer-links">
